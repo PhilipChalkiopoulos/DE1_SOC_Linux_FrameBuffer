@@ -60,6 +60,18 @@ set_output_delay -min -clock clk_vga -1.485 [get_ports VGA_BLANK]
 
 
 
+#create_clock -name "VGA_CLK" -period "65.0 MHz" [get_ports {VGA_CLK}]
+
+#set_output_delay -max -clock clk_vga 0.220 [get_ports VGA_R*]
+#set_output_delay -min -clock clk_vga -1.506 [get_ports VGA_R*]
+#set_output_delay -max -clock clk_vga 0.212 [get_ports VGA_G*]
+#set_output_delay -min -clock clk_vga -1.519 [get_ports VGA_G*]
+#set_output_delay -max -clock clk_vga 0.264 [get_ports VGA_B*]
+#set_output_delay -min -clock clk_vga -1.519 [get_ports VGA_B*]
+#set_output_delay -max -clock clk_vga 0.215 [get_ports VGA_BLANK]
+#set_output_delay -min -clock clk_vga -1.485 [get_ports VGA_BLANK]
+
+
 
 #**************************************************************
 # Set Input Delay
