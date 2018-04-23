@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="1" showDebugLogEntries="1" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="383" />
+   <irq preferredWidth="63" />
+   <inputclock preferredWidth="208" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="448" />
+   <clocksource preferredWidth="448" />
+   <frequency preferredWidth="435" />
+  </columns>
+ </clocktable>
+ <library
+   expandedCategories="Library/Memory Interfaces and Controllers,Library/Memory Interfaces and Controllers/SDRAM,Library/University Program/Clock,Library/Memory Interfaces and Controllers/Memory Interfaces with UniPHY,Library/University Program,Library,Project,Library/Memory Interfaces and Controllers/Memory Interfaces with ALTMEMPHY" />
+ <window width="1099" height="840" x="53" y="24" />
+ <hdlexample language="VERILOG" />
+</preferences>
